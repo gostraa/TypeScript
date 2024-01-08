@@ -124,3 +124,34 @@ const admin: UserVariants = {
   age: 27,
   role: "Admin",
 };
+
+// index Properties
+
+// universal template (interface)
+
+type Goods = {
+  [key: string]: number;
+};
+
+const fruits: Goods = {
+  apples: 20,
+  bananas: 40,
+  oranges: 60,
+};
+
+// exapmle
+
+type MixedType = {
+  [key: string]: number | string;
+};
+
+const userInfo: MixedType = {
+  name: "Bob",
+  age: 23,
+  country: "Ukraine",
+};
+
+const bookDetails: MixedType = {
+  title: "Bible",
+  pageCount: 350,
+};
