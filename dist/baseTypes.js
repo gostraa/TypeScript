@@ -68,4 +68,18 @@ const admin = {
     age: 27,
     role: "Admin",
 };
-//# sourceMappingURL=index.js.map
+const fruits = {
+    apples: 20,
+    bananas: 40,
+    oranges: 60,
+};
+const userInfo = {
+    name: "Bob",
+    age: 23,
+    country: "Ukraine",
+};
+const bookDetails = {
+    title: "Bible",
+    pageCount: 350,
+};
+//# sourceMappingURL=baseTypes.js.map
